@@ -1,0 +1,64 @@
+html.home-bg {
+	background: url("LarryWebsite/Images/skylineblackwhite.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+html.bio-bg {
+	background-color: white;
+	background-size: cover;
+}
+nav {
+	font-family: helvetica; 
+	font-size: 20px; 
+	text-align: center; 
+	color: black;
+}
+li 
+	{
+		display: inline-block; 
+		z-index: 10;
+	}
+.index, .bio, .work, .contact
+	{ 
+		width: 5%; 
+		padding: 1%; 
+		margin: 1%; 
+		border: 1px, double, #000000; 
+		background-color: black; 
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C0C0C0), to(#FFFFFF));
+		background-image: -webkit-linear-gradient(#FFFFFF,#C0C0C0);
+		text-align: center;
+	}
+.Mainheader 
+	{
+		color: rgba(250, 250, 250, .8); 
+		font-family: monospace; 
+		font-size: 24px; 
+		text-align: center; 
+		width: 50%; 
+		z-index: 5;
+		margin: 10px 10px 10px auto;
+	} 
+p
+	{
+		
+	}
+	.introduction 
+	{
+		font-family: monospace; 
+		border-width: 1px; 
+		padding: 3px;
+		margin: 10px auto 10px auto;
+	}
+.p1, .p2, .p3 
+	{
+		width: 300px;
+		height: 10%;
+		min-width: 25%;
+		display: inline-block;
+		padding: 1px;
+		border: 1px, solid, black;
+		background-color: rgba(225, 181, 158, 0.5);
+	}
